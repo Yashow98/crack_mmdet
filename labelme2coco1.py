@@ -80,7 +80,7 @@ class Labelme2Coco(object):
         img_x = utils.img_b64_to_arr(obj['imageData'])
         h, w = img_x.shape[:-1]
         return {'height': h,
-                'weight': w,
+                'width': w,
                 'id': self.image_id,
                 'file_name': os.path.basename(path).replace(".json", ".jpg")}
 
