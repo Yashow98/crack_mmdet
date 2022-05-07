@@ -16,7 +16,7 @@ from sklearn.model_selection import train_test_split
 
 np.random.seed(40)
 
-CLASS_NAME_TO_ID = {"alligator": 1, "longitude": 2, "transverse": 3, "block": 4, "other": 5}
+CLASS_NAME_TO_ID = {"alligator": 1, "longitude": 2, "transverse": 3, "block": 4}
 
 
 class Labelme2Coco(object):
